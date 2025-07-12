@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laabh Pathology Laboratory | Palanpur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body class="font-sans bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <img src="./assets/images/webp/logo.webp"
+                        alt="Laabh pathology laboratory logo with a microscope and medical cross symbol in blue and white"
+                        class="h-11 w-11">
+                    <a href="#" class="text-xl font-bold text-blue-600">Laabh Pathology Laboratory</a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link menu-link text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="nav-link menu-link text-gray-700 hover:text-blue-600 transition">About</a>
+                    <a href="#services" class="nav-link menu-link text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="#contact" class="nav-link menu-link bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Contact Us</a>
+                </div>
+
+                <!-- Mobile menu toggle -->
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-gray-700 focus:outline-none">
+                        <svg class="h-6 w-6 open" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <svg class="h-6 w-6 close hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="pt-2 pb-4 space-y-2">
+                    <a href="#home"
+                        class="block py-2 px-4 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded transition">Home</a>
+                    <a href="#about"
+                        class="block py-2 px-4 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded transition">About</a>
+                    <a href="#services"
+                        class="block py-2 px-4 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded transition">Services</a>
+                    <!-- <a href="#contact"
+                        class="block py-2 px-4 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded transition">Contact</a> -->
+                    <a href="#contact"
+                        class="block py-2 px-4 text-white bg-blue-600 rounded-md hover:bg-blue-700 transition">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="section active py-16 bg-gradient-to-r from-blue-50 to-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 animate-fade-in">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-4">Accurate Diagnostics for
+                        Better Health</h1>
+                    <p class="text-lg text-gray-600 mb-6">Welcome to Laabh Pathology Laboratory in Palanpur - your
+                        trusted partner for precise medical testing and diagnostics since 2010.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#services"
+                            class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition font-medium text-center">Check
+                            Test</a>
+                        <a href="#contact"
+                            class="border border-blue-600 text-blue-600 px-6 py-3 rounded-md hover:bg-blue-50 transition font-medium text-center">Contact
+                            Us</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 animate-fade-in">
+                    <img src="./assets/images/webp/home-lab-image.webp"
+                        alt="Modern pathology laboratory with technicians working on samples and advanced diagnostic equipment"
+                        class="rounded-lg shadow-xl w-full">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stats Section -->
+    <section class="py-12 bg-blue-600 text-white mt-5">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+                <div class="p-6 rounded-lg">
+                    <h3 class="text-3xl font-bold mb-2">500+</h3>
+                    <p class="text-blue-100">Tests Performed</p>
+                </div>
+                <div class="p-6 rounded-lg">
+                    <h3 class="text-3xl font-bold mb-2">2+</h3>
+                    <p class="text-blue-100">Years of Experience</p>
+                </div>
+                <div class="p-6 rounded-lg">
+                    <h3 class="text-3xl font-bold mb-2">99.7%</h3>
+                    <p class="text-blue-100">Accuracy Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Premium packages section  -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Health Services</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Comprehensive healthcare solutions tailored to your needs with our premium packages and specialized checkups.
+            </p>
+        </div>
+
+        <!-- Packages Section -->
+        <div>
+            <h3 class="text-2xl font-semibold text-center mb-10 text-gray-800">Premium Health Packages</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Silver Package -->
+                <div class="package-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300">
+                    <div class="bg-gray-200 px-6 py-4">
+                        <h4 class="text-2xl font-bold text-gray-800">Silver Package</h4>
+                        <p class="text-gray-600">Basic health assessment</p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl font-bold text-gray-900">1000</span>
+                            <span class="ml-2 text-gray-500">/- RS</span>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Basic blood tests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">General physician consultation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">BMI & nutritional assessment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin B12</span>
+                            </li>
+                        </ul>
+                        <button class="mt-6 w-full bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Choose Plan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gold Package (Featured) -->
+                <div class="package-card bg-gradient-to-b from-amber-100 to-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 border-2 border-amber-300 relative">
+                    <div class="bg-amber-500 px-6 py-4">
+                        <div class="absolute top-4 right-4 bg-yellow-800 text-white text-xs font-bold px-2 py-1 rounded-md">POPULAR</div>
+                        <h4 class="text-2xl font-bold text-white">Gold Package</h4>
+                        <p class="text-amber-100">Comprehensive health check</p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl font-bold text-gray-900">1800</span>
+                            <span class="ml-2 text-gray-500">/- RS</span>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">All Silver package tests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">PSA (Male) or T3, T4, TSH (Female)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin B12</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin D</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Stress test</span>
+                            </li>
+                        </ul>
+                        <button class="mt-6 w-full bg-amber-600 hover:bg-amber-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Choose Plan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Platinum Package -->
+                <div class="package-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300">
+                    <div class="bg-blue-200 px-6 py-4">
+                        <h4 class="text-2xl font-bold text-gray-800">Platinum Package</h4>
+                        <p class="text-gray-600">Complete executive health check</p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl font-bold text-gray-900">2500</span>
+                            <span class="ml-2 text-gray-500">/- RS</span>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">All Gold package tests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Complete hormonal profile</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">HbA1C</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Electrolyte (NaKCr)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">General Body consultation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Full Checkup</span>
+                            </li>
+                        </ul>
+                        <button class="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Choose Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services-btn" class="text-center mt-6">
+            <button class="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Choose More Plan
+            </button>
+        </div>
+    </section>
+
+    
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">What Our Patients Say</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Trusted by thousands of patients in Palanpur and surrounding
+                    areas</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="./assets/images/webp/rajesh-patel.webp"
+                            alt="Middle-aged man smiling, wearing glasses and formal shirt"
+                            class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Rajesh Patel</h4>
+                            <p class="text-blue-600 text-sm">Business Owner</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The staff at Laabh Pathology is very professional. I always get my
+                        reports on time and never had to repeat any test. Highly recommended for their accuracy and
+                        service."</p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="./assets/images/webp/manjula-desai.webp"
+                            alt="Senior woman with kind expression, wearing traditional Indian saree"
+                            class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Manjula Desai</h4>
+                            <p class="text-blue-600 text-sm">Retired Teacher</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"I was nervous about my tests, but the technician made me feel very
+                        comfortable. The reports were detailed yet easy to understand."</p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="./assets/images/webp/priya-sharama.webp"
+                            alt="Young woman in casual attire smiling warmly with hands folded"
+                            class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Priya Sharma</h4>
+                            <p class="text-blue-600 text-sm">Homemaker</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"I bring my whole family here for tests. The home collection service
+                        is very convenient when the kids are sick. Always accurate results and caring staff."</p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section hidden py-16 bg-white">
+        <div class="container mx-auto px-4">
+    
+            <!-- About Content -->
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl font-bold text-blue-700 mb-6 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-users text-teal-500"></i>
+                    About Us
+                </h2>
+                <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                    <span class="font-semibold text-blue-600">Laabh Pathology Laboratory</span> is a trusted medical
+                    diagnostics center in Palanpur, dedicated to providing accurate, timely, and compassionate diagnostic services. Our
+                    mission is to empower healthier lives through reliable results and patient-focused care.
+                </p>
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    With over a decade of experience, our state-of-the-art facility is equipped with the latest technology and managed by a team of highly qualified professionals. We ensure accurate diagnostics and quick turnaround times for all your pathology needs.
+                </p>
+            </div>
+    
+            <!-- Team Section -->
+            <div class="mb-8 mx-10">
+                <h3 class="text-2xl font-bold text-gray-800 text-center mb-12">Our Expert Team</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Team Member 1 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2">
+                        <div class="aspect-w-4 aspect-h-3">
+                            <img src="./assets/images/webp/doctor.webp" alt="Dr. Ketan Kapadiya" class="w-full h-64 object-contain">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h4 class="text-xl font-semibold text-gray-800 mb-2">Dr. Ketan Kapadiya</h4>
+                            <p class="text-blue-600 font-medium mb-2">MD Pathologist</p>
+                            <p class="text-gray-600 mb-4">Director & Chief Pathologist</p>
+                            <a href="tel:+919427953758" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition">
+                                <i class="fas fa-phone-alt mr-2"></i>
+                                +91 94279 53758
+                            </a>
+                        </div>
+                    </div>
+    
+                    <!-- Team Member 2 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2">
+                        <div class="aspect-w-4 aspect-h-3">
+                            <img src="./assets/images/webp/Haresh.webp" alt="Haresh Chaudhary" class="w-full h-64 object-cover object-top">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h4 class="text-xl font-semibold text-gray-800 mb-2">Haresh Chaudhary</h4>
+                            <p class="text-blue-600 font-medium mb-2">B.Sc PGDMLT</p>
+                            <p class="text-gray-600 mb-4">Senior Lab Technician</p>
+                            <a href="tel:+917359261276" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition">
+                                <i class="fas fa-phone-alt mr-2"></i>
+                                +91 73592 61276
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lab Photo Section -->
+             <div class="mb-8 mx-10">
+                <h3 class="text-2xl font-bold text-gray-800 text-center mb-12">Our Lab Photos</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="aspect-w-4 aspect-h-3">
+                            <img src="./assets/images/webp/lab-main.webp" alt="Lab Photo" class="w-full">
+                        </div>
+                        <div class="aspect-w-4 aspect-h-3">
+                            <img src="./assets/images/webp/lab-main3.webp" alt="Lab Photo" class="w-full">
+                        </div>
+                    </div>
+
+                    <div class="aspect-w-4 aspect-h-3 my-8">
+                            <img src="./assets/images/webp/lab-main2.webp" alt="Lab Photo" class="w-full">
+                        </div>
+            </div>
+    
+            <!-- Stats Section -->
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 mt-16">
+                <div class="bg-blue-50 rounded-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">2+</div>
+                    <p class="text-gray-600">Years Experience</p>
+                </div>
+                <div class="bg-blue-50 rounded-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                    <p class="text-gray-600">Tests Performed</p>
+                </div>
+                <div class="bg-blue-50 rounded-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">99.7%</div>
+                    <p class="text-gray-600">Accuracy Rate</p>
+                </div>
+                <div class="bg-blue-50 rounded-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">24/7</div>
+                    <p class="text-gray-600">Emergency Service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section hidden py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Health Services</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Comprehensive healthcare solutions tailored to your needs with our premium packages and specialized checkups.
+            </p>
+        </div>
+
+        <!-- Packages Section -->
+        <div class="mb-20">
+            <h3 class="text-2xl font-semibold text-center mb-10 text-gray-800">Premium Health Packages</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Silver Package -->
+                <div class="package-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300">
+                    <div class="bg-gray-200 px-6 py-4">
+                        <h4 class="text-2xl font-bold text-gray-800">Silver Package</h4>
+                        <p class="text-gray-600">Basic health assessment</p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl font-bold text-gray-900">1000</span>
+                            <span class="ml-2 text-gray-500">/- RS</span>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Basic blood tests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">General physician consultation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">BMI & nutritional assessment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin B12</span>
+                            </li>
+                        </ul>
+                        <button class="mt-6 w-full bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Choose Plan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gold Package (Featured) -->
+                <div class="package-card bg-gradient-to-b from-amber-100 to-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 border-2 border-amber-300 relative">
+                    <div class="bg-amber-500 px-6 py-4">
+                        <div class="absolute top-4 right-4 bg-yellow-800 text-white text-xs font-bold px-2 py-1 rounded-md">POPULAR</div>
+                        <h4 class="text-2xl font-bold text-white">Gold Package</h4>
+                        <p class="text-amber-100">Comprehensive health check</p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl font-bold text-gray-900">1800</span>
+                            <span class="ml-2 text-gray-500">/- RS</span>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">All Silver package tests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">PSA (Male) or T3, T4, TSH (Female)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin B12</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin D</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Stress test</span>
+                            </li>
+                        </ul>
+                        <button class="mt-6 w-full bg-amber-600 hover:bg-amber-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Choose Plan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Platinum Package -->
+                <div class="package-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300">
+                    <div class="bg-blue-200 px-6 py-4">
+                        <h4 class="text-2xl font-bold text-gray-800">Platinum Package</h4>
+                        <p class="text-gray-600">Complete executive health check</p>
+                    </div>
+                    <div class="px-6 py-4">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl font-bold text-gray-900">2500</span>
+                            <span class="ml-2 text-gray-500">/- RS</span>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">All Gold package tests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Complete hormonal profile</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">HbA1C</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Electrolyte (NaKCr)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">General Body consultation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Full Checkup</span>
+                            </li>
+                        </ul>
+                        <button class="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Choose Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Specialized Services -->
+        <div>
+            <h3 class="text-2xl font-semibold text-center mb-10 text-gray-800">Specialized Health Checkups</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Thyroid Test -->
+                <div class="service-card bg-white rounded-lg shadow-md p-6 transition-all duration-200 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 p-3 rounded-lg mr-4">
+                            <svg class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800">Thyroid Test</h4>
+                    </div>
+                    <div class="flex items-center mb-4">
+                            <span class="text-2xl font-bold text-gray-900">1899</span>
+                            <span class="ml-2 text-sm text-gray-500">/- RS</span>
+                        </div>
+                    <p class="text-gray-600 mb-4">Comprehensive thyroid function test (T3, T4, TSH) to assess thyroid health.</p>
+                    <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">T.H.S</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">T3 / T4</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin D</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Vitamin B12</span>
+                            </li>
+                    </ul>
+                    <div class="flex justify-center items-center">
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Kidney/Bones Checkup -->
+                <div class="service-card bg-white rounded-lg shadow-md p-6 transition-all duration-200 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-purple-100 p-3 rounded-lg mr-4">
+                            <svg class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800">Kidney/Bones Checkup</h4>
+                    </div>
+                    <div class="flex items-center mb-4">
+                            <span class="text-2xl font-bold text-gray-900">399</span>
+                            <span class="ml-2 text-sm text-gray-500">/- RS</span>
+                        </div>
+                    <p class="text-gray-600 mb-4">Kidney function tests and bone health assessment including calcium levels.</p>
+                    <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Creatinine Test</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Uric Acid Test</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Calcium, Urea Checkup</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">BUN Test</span>
+                            </li>
+                    </ul>
+                    <div class="flex justify-center items-center mt-6">
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Diabetes Checkup -->
+                <div class="service-card bg-white rounded-lg shadow-md p-6 transition-all duration-200 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-pink-100 p-3 rounded-lg mr-4">
+                            <svg class="h-6 w-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800">Diabetes Checkup</h4>
+                    </div>
+                    <div class="flex items-center mb-4">
+                            <span class="text-2xl font-bold text-gray-900">499</span>
+                            <span class="ml-2 text-sm text-gray-500">/- RS</span>
+                        </div>
+                    <p class="text-gray-600 mb-4">Complete diabetes screening including HbA1c, fasting and postprandial glucose.</p>
+                    <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Fasting Blood Sugar test</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Random Blood Sugar Test</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">HbA1c</span>
+                            </li>
+                    </ul>
+                    <div class="flex justify-center items-center mt-6">
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Routine Checkup -->
+                <div class="service-card bg-white rounded-lg shadow-md p-6 transition-all duration-200 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                            <svg class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800">Routine Checkup</h4>
+                    </div>
+                        <div class="flex items-center mb-4">
+                            <span class="text-2xl font-bold text-gray-900">300</span>
+                            <span class="ml-2 text-sm text-gray-500">/- RS</span>
+                        </div>
+                    <p class="text-gray-600 mb-4">Basic health evaluation including C.B.S, Urine checkup and E.S.R.</p>
+                    <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">C.B.S</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Urine Checkup</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">E.S.R</span>
+                            </li>
+                    </ul>
+                    <div class="flex justify-center items-center">
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Liver Checkup -->
+                <div class="service-card bg-white rounded-lg shadow-md p-6 transition-all duration-200 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-yellow-100 p-3 rounded-lg mr-4">
+                            <svg class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800">Liver Checkup</h4>
+                    </div>
+                    <div class="flex items-center mb-4">
+                            <span class="text-2xl font-bold text-gray-900">399</span>
+                            <span class="ml-2 text-sm text-gray-500">/- RS</span>
+                        </div>
+                    <p class="text-gray-600 mb-4">Comprehensive liver function tests and ultrasound screening.</p>
+                    <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">S.G.P.T</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">S.G.O.T</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">HbSAg</span>
+                            </li>
+                    </ul>
+                    <div class="flex justify-center items-center mt-6">
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Heart Checkup -->
+                <div class="service-card bg-white rounded-lg shadow-md p-6 transition-all duration-200 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-red-100 p-3 rounded-lg mr-4">
+                            <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-800">Heart Checkup</h4>
+                    </div>
+                    <div class="flex items-center mb-4">
+                            <span class="text-2xl font-bold text-gray-900">300</span>
+                            <span class="ml-2 text-sm text-gray-500">/- RS</span>
+                        </div>
+                    <p class="text-gray-600 mb-4">Complete cardiac evaluation with ECG, lipid profile, and cardiac risk assessment.</p>
+                    <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="h-5 w-5 text-green-500 mt-0.5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Lipid Profile (7 types of FAT Tests)</span>
+                            </li>
+                    </ul>
+                    <div class="flex justify-center items-center mt-6">
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Book Now</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section hidden py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact Us</h2>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 text-blue-600">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Address</h3>
+                                <p class="text-gray-600">Ground Floor, Health Care Complex, <br>Dr House Area, Nr. Ashirvad Hospital,<br>Palanpur -
+                                    385001<br>Gujarat, India</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 text-blue-600">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Phone</h3>
+                                <p class="text-gray-600">
+                                    <a href="tel:+919427953758" class="hover:text-blue-600 transition">+91 94279 53758</a><br>
+                                    <a href="tel:+917359261276" class="hover:text-blue-600 transition">+91 73592 61276</a> (24x7 Emergency)<br>
+                                    <a href="tel:+919913443380" class="hover:text-blue-600 transition">+91 99134 43380</a> (24x7 Emergency)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 text-blue-600">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Email</h3>
+                                <p class="text-gray-600">
+                                    <a href="mailto:laabhpatho@gmail.com"
+                                        class="hover:text-blue-600 transition">laabhpatho@gmail.com</a><br>
+                                    <a href="mailto:chaudharyharesh5117@gmail.com"
+                                        class="hover:text-blue-600 transition">chaudharyharesh5117@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 text-blue-600">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Opening Hours</h3>
+                                <p class="text-gray-600">
+                                    Monday - Saturday: 8:30 AM - 9:00 PM<br>
+                                    Sunday: 8:30 AM - 7:00 PM<br>
+                                    Emergency Services: 24x7 Available
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden h-full">
+                        <div class="h-64 md:h-full">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.262687088805!2d72.43527461496963!3d23.45094458474726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395dbef1dd1dfe8d%3A0x7d0f2c8c0dd6e0b7!2sPalanpur%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                title="Google Maps location of Laabh Pathology Laboratory in Palanpur"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="./assets/images/webp/logo.webp"
+                            alt="Laabh pathology laboratory logo with a microscope and medical cross symbol in blue and white"
+                            class="h-12 w-12 mr-2">
+                        <span class="text-xl font-bold">Laabh Pathology</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">Your trusted diagnostic center in Palanpur providing accurate and
+                        timely test results since 2023.</p>
+                    <div class="flex space-x-4">
+                        <!-- This is for future -->
+                        <!-- <a href="#" class="text-gray-400 hover:text-white transition" aria-label="Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition" aria-label="Twitter"><i
+                                class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/laabhpatholab?utm_source=qr&igsh=Ync3OW9sZjhkM3Fv" class="text-gray-400 hover:text-white transition" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=917359261276" target="_blank" class="text-gray-400 hover:text-white transition" aria-label="LinkedIn"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="menu-link text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#about" class="menu-link text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="#services" class="menu-link text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#contact" class="menu-link text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="services-btn">
+                    <h3 class="text-lg font-semibold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" id="services-btn" class="text-gray-400 hover:text-white transition">Thyroid Test</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Kidney/Bones Checkup</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Routine Checkup</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Liver Checkup</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Opening Hours</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex justify-between"><span>Monday - Saturday</span> <span>8:30 AM - 9:00 PM</span>
+                        </li>
+                        <li class="flex justify-between"><span>Sunday</span> <span>8:30 AM - 7:00 PM</span></li>
+                        <li class="flex justify-between"><span>Emergency</span> <span>24x7 Available</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Laabh Pathology Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/scripts/app.js"></script>
+</body>
+
+</html>
