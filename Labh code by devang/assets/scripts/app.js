@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function setActiveLink(activeLink) {
         navLinks.forEach(link => {
             if (link === activeLink) {
-                link.classList.add('text-blue-600');
+                link.classList.add('nav-link-class');
             } else {
-                link.classList.remove('text-blue-600');
+                link.classList.remove('nav-link-class');
             }
         });
     }
@@ -55,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Mobile menu toggle
     // Mobile menu toggle
     if (menuBtn && mobileMenu) {
         menuBtn.addEventListener('click', () => {
